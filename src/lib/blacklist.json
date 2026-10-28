@@ -1,0 +1,128 @@
+[
+    {
+        "phone": "+77770000001",
+        "name": "Qnet",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000002",
+        "name": "Finiko",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000003",
+        "name": "Antares Trade",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000004",
+        "name": "Sincere Systems",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000005",
+        "name": "Hermes Management",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000006",
+        "name": "Chia Tai Tianging",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000007",
+        "name": "Mudarabah Capital",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000008",
+        "name": "Sax Invest",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000009",
+        "name": "The Finiko",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000010",
+        "name": "Koktem",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000011",
+        "name": "B2B Jewelry",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000012",
+        "name": "World Business Consulting",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000013",
+        "name": "Unique Finance",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000014",
+        "name": "Innovational Financial Cooperation",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77770000015",
+        "name": "Crowd1",
+        "type": "financial_pyramid",
+        "source": "ARDFM_WARNING",
+        "status": "confirmed"
+    },
+    {
+        "phone": "+77011234567",
+        "name": "Fake KazPost SMS",
+        "type": "phishing",
+        "source": "USER_REPORT",
+        "status": "suspicious"
+    },
+    {
+        "phone": "+77778889900",
+        "name": "Fake Bank CenterCredit",
+        "type": "vishing",
+        "source": "USER_REPORT",
+        "status": "suspicious"
+    },
+    {
+        "phone": "+77272000000",
+        "name": "Unknown Marketers (Spam)",
+        "type": "spam",
+        "source": "USER_REPORT",
+        "status": "suspicious"
+    }
+]

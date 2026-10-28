@@ -1,0 +1,236 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  "Paper & Ink" Design System - ScammerKetKz
+  Strict, Monochrome, Authoritative.
+*/
+
+@layer base {
+    :root {
+        /* BACKGROUNDS: Bone & Paper */
+        --paper-bg: #F9F9F7;
+        /* Основной фон (дорогая бумага) */
+        --paper-thick: #F0F0EB;
+        /* Плотная бумага (для секций) */
+        --surface: #FFFFFF;
+        /* Чистый белый (карточки) */
+
+        /* INK: Text & Borders */
+        --ink-solid: #111111;
+        /* Основной текст (чернила) */
+        --ink-medium: #444444;
+        /* Вторичный текст (графит) */
+        --ink-light: #888888;
+        /* Неактивный текст (свинец) */
+        --border-ink: #E0E0D8;
+        /* Тонкие линии */
+
+        /* ACENTS: Bronze & Metal */
+        --bronze-light: #C69C6D;
+        --bronze: #A6845B;
+        /* Основной акцент (состаренная бронза) */
+        --bronze-dark: #8C6A48;
+
+        /* STATUS: Muted Earth Tones */
+        --brick: #C06C5F;
+        /* Красный (Кирпич) - Ошибка/Угроза */
+        --olive: #8A9A5B;
+        /* Зеленый (Олива) - Безопасность */
+        --clay: #E6B89C;
+        /* Оранжевый (Глина) - Внимание */
+    }
+
+    html {
+        scroll-behavior: smooth;
+        overflow-y: scroll;
+    }
+
+    body {
+        color: var(--ink-solid);
+        background: var(--paper-bg);
+        /* Добавляем зернистость для эффекта бумаги через CSS noise, если нужно, но пока оставим чистым */
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100vw;
+        overflow-x: hidden;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+
+@layer components {
+
+    /* Strict Buttons */
+    .btn-primary {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--ink-solid);
+        /* Черный/Графитовый фон */
+        color: white;
+        padding: 0.875rem 1.75rem;
+        border-radius: 0.75rem;
+        /* Чуть менее скругленные углы */
+        font-weight: 600;
+        transition: all 0.2s ease;
+        border: 1px solid var(--ink-solid);
+        cursor: pointer;
+    }
+
+    .btn-primary:not(:disabled):hover {
+        background: var(--bronze);
+        border-color: var(--bronze);
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(166, 132, 91, 0.2);
+    }
+
+    .btn-outline {
+        background: transparent;
+        border: 1px solid var(--border-ink);
+        color: var(--ink-solid);
+        padding: 0.875rem 1.75rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+    }
+
+    /* Paper Cards */
+    .card {
+        background: var(--surface);
+        border: 1px solid var(--border-ink);
+        border-radius: 1rem;
+        padding: 1.5rem;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        /* Минимальная тень */
+    }
+
+    .card-glass {
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        border-radius: 1.25rem;
+        padding: 2rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+    }
+
+    /* Input Fields */
+    .input-paper {
+        background: var(--surface);
+        border: 1px solid var(--border-ink);
+        border-radius: 0.75rem;
+        padding: 1rem;
+        color: var(--ink-solid);
+        transition: all 0.2s ease;
+        width: 100%;
+    }
+
+    .input-paper:focus {
+        border-color: var(--bronze);
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(166, 132, 91, 0.1);
+    }
+
+    /* Stat Cards */
+    .stat-card {
+        background: var(--surface);
+        border-bottom: 3px solid var(--border-ink);
+        /* Акцент снизу */
+        border-radius: 0.5rem;
+        padding: 1.5rem;
+        transition: all 0.2s ease;
+    }
+
+    .stat-card:hover {
+        border-bottom-color: var(--bronze);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    /* Animations */
+    .animate-fade-in {
+        animation: fadeIn 0.5s ease-out;
+    }
+
+    .animate-slide-up {
+        animation: slideUp 0.5s ease-out;
+    }
+
+    .animate-float {
+        animation: float 4s ease-in-out infinite;
+    }
+}
+
+@layer utilities {
+    .text-gradient {
+        /* Строгий градиент: от чернил к бронзе */
+        background: linear-gradient(135deg, var(--ink-solid) 0%, var(--bronze) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
+@keyframes fade-in-up {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-fade-in-up {
+    animation: fade-in-up 0.3s ease-out;
+}
+
+@keyframes fade-in-down {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-fade-in-down {
+    animation: fade-in-down 0.3s ease-out;
+}

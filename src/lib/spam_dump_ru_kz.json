@@ -1,0 +1,92 @@
+[
+    {
+        "phone": "74950000000",
+        "name": "Unknown Moscow Spam",
+        "type": "spam",
+        "source": "RU_LEAK"
+    },
+    {
+        "phone": "74991234567",
+        "name": "Robocall Survey",
+        "type": "spam",
+        "source": "RU_LEAK"
+    },
+    {
+        "phone": "77273330000",
+        "name": "Almaty Marketing Spam",
+        "type": "spam",
+        "source": "KZ_LEAK"
+    },
+    {
+        "phone": "77059998877",
+        "name": "WhatsApp Scammer",
+        "type": "vishing",
+        "source": "KZ_LEAK"
+    },
+    {
+        "phone": "77771112233",
+        "name": "Fake Police",
+        "type": "vishing",
+        "source": "KZ_LEAK"
+    },
+    {
+        "phone": "79001112233",
+        "name": "Sberbank Fake Security",
+        "type": "vishing",
+        "source": "RU_LEAK"
+    },
+    {
+        "phone": "79998887766",
+        "name": "Yandex Invest Fake",
+        "type": "pyramid",
+        "source": "RU_LEAK"
+    },
+    {
+        "phone": "77075554433",
+        "name": "Invest KZT Scam",
+        "type": "pyramid",
+        "source": "KZ_LEAK"
+    },
+    {
+        "phone": "77012223344",
+        "name": "Kaspi Fake Manager",
+        "type": "vishing",
+        "source": "KZ_LEAK"
+    },
+    {
+        "phone": "77023334455",
+        "name": "Halyk Fake Alert",
+        "type": "vishing",
+        "source": "KZ_LEAK"
+    },
+    {
+        "phone": "77470001122",
+        "name": "Tele2 Lottery Scam",
+        "type": "phishing",
+        "source": "KZ_LEAK"
+    },
+    {
+        "phone": "77756667788",
+        "name": "OLX Delivery Scam",
+        "type": "phishing",
+        "source": "KZ_LEAK"
+    },
+    {
+        "phone": "77789990011",
+        "name": "Kolesa.kz Fake Buyer",
+        "type": "phishing",
+        "source": "KZ_LEAK"
+    },
+    {
+        "phone": "77712223344",
+        "name": "Beeline Fake Tariff",
+        "type": "spam",
+        "source": "KZ_LEAK"
+    },
+    {
+        "phone": "77085556677",
+        "name": "Altel Debt Collector",
+        "type": "other",
+        "source": "KZ_LEAK"
+    }
+]

@@ -1,0 +1,97 @@
+{
+  "HomePage": {
+    "title_part1": "Unified Registry of",
+    "title_part2": "Suspicious Numbers",
+    "subtitle": "Check a phone number or link before contacting. Free. Anonymous. Secure.",
+    "search_placeholder": "Enter phone number (e.g., +7 777 ...)",
+    "search_button": "Check",
+    "stats": {
+      "total_reports": "Total Reports",
+      "active_users": "Active Users",
+      "complained_companies": "Flagged Companies",
+      "saved_money": "Saved Money (₸)"
+    },
+    "recent_activity": "Recent Activity"
+  },
+  "Navigation": {
+    "home": "Home",
+    "report": "Report",
+    "scams": "Database",
+    "leaderboard": "Leaderboard",
+    "login": "Login",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "ReportModal": {
+    "title": "Report Suspicious Activity",
+    "phone_label": "Caller's Phone Number",
+    "company_label": "Organization (if stated)",
+    "gender_label": "Caller's Gender",
+    "gender_male": "Male",
+    "gender_female": "Female",
+    "gender_unknown": "Unknown/Robot",
+    "category_label": "Violation Category",
+    "description_label": "Description",
+    "description_placeholder": "Describe what happened, what the caller said, what data was requested...",
+    "submit_button": "Submit Report",
+    "success_alert": "Report submitted! Thank you for your contribution to safety.",
+    "categories": {
+      "phishing": "Bank Phishing",
+      "crypto": "Suspicious Crypto Ops",
+      "fake_sale": "Fake Sale (OLX/Kolesa)",
+      "impersonation": "Fake Bank/Police Officer",
+      "pyramid": "Financial Pyramid",
+      "rental": "Rental Scam",
+      "other": "Other"
+    }
+  },
+  "LoginModal": {
+    "title": "Login to Dashboard",
+    "subtitle": "Track your ranking and contribution to national security",
+    "phone_placeholder": "+7 (___) ___-__-__",
+    "continue": "Continue",
+    "or": "or",
+    "google_login": "Sign in with Google",
+    "name_label": "What should we call you?",
+    "name_placeholder": "Your name or nickname",
+    "complete_registration": "Complete Registration"
+  },
+  "ScamCard": {
+    "risk_index": "Risk Index",
+    "confirmed": "confirmed",
+    "refuted": "refuted",
+    "region": "Region",
+    "gender": "Gender",
+    "date": "Date",
+    "author": "Author",
+    "suspicious_button": "Suspicious",
+    "safe_button": "False Alarm"
+  },
+  "Profile": {
+    "title": "Personal Dashboard",
+    "rank": "Rank",
+    "points": "Rating Points",
+    "reports_count": "My Reports",
+    "no_activity": "No activity yet. Report a violation!",
+    "status_pending": "Pending",
+    "status_verified": "Verified"
+  },
+  "Leaderboard": {
+    "title": "Top Anti-Fraud Fighters",
+    "subtitle": "People making Kazakhstan safer",
+    "empty_title": "No participants yet",
+    "empty_desc": "Be the first! Report a violation.",
+    "join_link": "Report a violation"
+  },
+  "Common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "back": "Back",
+    "close": "Close"
+  },
+  "NotFound": {
+    "title": "Page Not Found",
+    "description": "It seems this page does not exist or has been removed.",
+    "returnHome": "Return to Home"
+  }
+}
